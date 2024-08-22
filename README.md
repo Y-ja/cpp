@@ -32,7 +32,7 @@ C에서는 malloc()과 free()를 사용하여 동적 메모리를 관리합니�
  int* ptr = (int*)malloc(sizeof(int));
  free(ptr);
   ```
-- **C++:**
+**C++:**
 ```c
 int* ptr = new int;
 delete ptr;
