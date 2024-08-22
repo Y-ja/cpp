@@ -15,3 +15,10 @@ C에서는 함수 기반으로 프로그래밍을 합니다. 객체지향 프로
   ```c
   void push(Stack* s, int value);
   ```
+- **C++:**
+-  ```c
+class Stack {
+public:
+  void push(int value);
+};
+  ```
