@@ -1,5 +1,7 @@
 #include <stdexcept>  // std::bad_alloc, std::overflow_error, std::underflow_error
 #include "stack.h"
+#include <cassert>
+#include <cstdio>
 
 // 생성자
 Stack::Stack(int size) : size(size), tos(-1) {

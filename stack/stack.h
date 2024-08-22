@@ -10,6 +10,7 @@ public:
     int pop();
 
 private:
+    // 접근 못하게 하게 하긴 위해서 private
     int *pArr;   // 동적 배열
     int size;    // 배열 크기
     int tos;     // Top of stack
