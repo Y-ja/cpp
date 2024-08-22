@@ -125,7 +125,7 @@ std::cout << "Hello, World!" << std::endl;
 
 ## 9. main 함수와 타입 정의 ✍️
 C++에서는 typedef struct 대신 struct와 class를 사용하여 타입을 정의합니다. main 함수의 정의에서도 void를 생략하고 int로 반환 타입을 명시합니다.
-
+**C**
 ```c
 int main(void);
 typedef struct {} Stack;
