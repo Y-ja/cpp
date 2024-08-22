@@ -104,3 +104,35 @@ public:
   int pop();
 };
 ```
+## 7. 헤더 파일 변환 📚
+C++에서는 namespace가 적용된 헤더 파일을 사용합니다. 예를 들어, C의 <stdio.h>는 C++에서는 <cstdio>로 변환되어 사용됩니다.
+
+- C: #include <stdio.h>
+- C++: #include <cstdio>
+
+## 8. 입출력 함수 🖨️
+C++에서는 C의 printf 대신 cout을 사용하여 출력합니다. cout은 C++의 표준 입출력 스트림으로, 타입에 맞게 데이터를 출력할 수 있습니다.
+
+*예제 코드:**
+- **C:**
+```c
+printf("Hello, World!\n");
+```
+**C++:**
+```c
+std::cout << "Hello, World!" << std::endl;
+```
+
+## 9. main 함수와 타입 정의 ✍️
+C++에서는 typedef struct 대신 struct와 class를 사용하여 타입을 정의합니다. main 함수의 정의에서도 void를 생략하고 int로 반환 타입을 명시합니다.
+
+```c
+int main(void);
+typedef struct {} Stack;
+
+```
+**C++:**
+```c
+int main();
+struct Stack {};
+```
