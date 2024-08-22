@@ -28,7 +28,7 @@ C에서는 malloc()과 free()를 사용하여 동적 메모리를 관리합니�
 
 *예제 코드:**
 - **C:**
-  ```c
+```c
  int* ptr = (int*)malloc(sizeof(int));
  free(ptr);
   ```
