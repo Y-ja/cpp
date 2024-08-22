@@ -22,3 +22,19 @@ public:
   void push(int value);
 };
 ```
+
+## 3. 메모리 관리 🧠
+C에서는 malloc()과 free()를 사용하여 동적 메모리를 관리합니다. C++에서는 new와 delete 연산자를 사용하여 객체의 생성과 소멸을 처리합니다. C++의 new와 delete는 객체의 생성자와 소멸자를 호출합니다.
+
+*예제 코드:**
+- **C:**
+  ```c
+ int* ptr = (int*)malloc(sizeof(int));
+ free(ptr);
+  ```
+- **C++:**
+```c
+int* ptr = new int;
+delete ptr;
+```
+
